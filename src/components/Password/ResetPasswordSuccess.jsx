@@ -13,7 +13,7 @@ export default function ResetPasswordSuccess() {
             You can now log in with your new password
           </p>
           <form className="relative flex flex-col justify-start items-stretch w-full p-2">
-            <button className="mt-12 cursor-pointer bg-blue-900 text-white border-none transition-colors duration-300 py-3 px-4 hover:bg-blue-700 focus:outline-none focus:border-blue-500 focus:shadow-outline">
+            <button className="mt-12 cursor-pointer bg-blue-900 text-white border-none transition-colors duration-300 py-3 px-4 hover:bg-blue-900 focus:outline-none focus:border-blue-900 focus:shadow-outline">
               Login
             </button>
           </form>

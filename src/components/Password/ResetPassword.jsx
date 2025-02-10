@@ -52,8 +52,8 @@ export default function ResetPassword() {
                 Go Back To <span className="text-blue-900 font-semibold cursor-pointer">Login</span>
               </p>
             </div>
-            <button className="mt-12 cursor-pointer bg-blue-900 text-white border-none transition-colors duration-300 py-3 px-4 hover:bg-blue-700 focus:outline-none focus:border-blue-500 focus:shadow-outline">
-              Submit
+            <button className="mt-12 cursor-pointer bg-blue-900 text-white border-none transition-colors duration-300 py-3 px-4 hover:bg-blue-900 focus:outline-none focus:border-blue-900 focus:shadow-outline">
+              Reset Password
             </button>
             <div className="flex justify-center pt-5">
               <p className="font-roboto text-base font-normal leading-5 text-gray-700">
