@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ResetPasswordSuccess.module.css";
-import Image from "../../assets/images/pana.png";
+import Image from "../assets/images/pana.png";
 
 export default function ResetPasswordSuccess() {
   return (
