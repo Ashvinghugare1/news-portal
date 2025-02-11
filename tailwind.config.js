@@ -7,6 +7,7 @@ export default {
       colors: {
         'blue-900': '#1c2059',
         'yellow-500': '#F59E0B',
+        'text-red-500': '#FF48B4B',
       }
     },
   },
