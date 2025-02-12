@@ -12,20 +12,20 @@ export default function Navbar() {
       <input
         type="search"
         placeholder="Search"
-        className="border rounded py-2 px-4 mr-4"
+        className="border rounded md:ml-0 ml-6 md:py-2 py-1 md:px-2 px-1 mr-4"
       />
     </div>
     <div className="flex items-center space-x-4">
       <a href="#" className="text-gray-600 hover:text-gray-800">
-        <span className='text-3xl'><TbMessage /></span>
+        <span className='md:text-3xl text-2xl'><TbMessage /></span>
       </a>
       <a href="#" className="text-gray-600 hover:text-gray-800">
-        <span className='text-3xl'><VscBellDot /></span>
+        <span className='md:text-3xl text-2xl'><VscBellDot /></span>
       </a>
       <img
         src={Ellipse} // Replace with actual user image
         alt="User Avatar"
-        className="rounded-full w-10 h-10"
+        className="rounded-full md:w-10 md:h-10 w-8 h-8"
       />
     </div>
   </nav>
