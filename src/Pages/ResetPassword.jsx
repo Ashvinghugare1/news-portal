@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ResetPassword.module.css";
-import Image from "../../assets/images/Group.png";
-import Eye from "../../assets/images/eye.png";
+import Image from "../assets/images/Group.png";
+import Eye from '../assets/images/eye.png';
 
 export default function ResetPassword() {
   return (
