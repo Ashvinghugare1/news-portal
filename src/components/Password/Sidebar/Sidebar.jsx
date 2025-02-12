@@ -27,7 +27,7 @@ const Sidebar = () => {
         <div href="dashbord" className='hover:bg-[#FFAC06] flex flex-row mt-4 px-5 py-2'><span className='mr-4'><img src={dashboardIcon} alt="dashboard Icon" /></span>Dashboard</div>
         
         
-        <div className='group hover:bg-[#FFAC06] focus:bg-[#FFAC06] flex flex-row mt-4 px-5 py-2' onClick={()=>dropNewHandler()}><span className='mr-4'><img src={newIcon} alt="" /></span>New</div>
+        <div className={`hover:bg-[#FFAC06] flex flex-row mt-4 px-5 py-2  ${dropNew ? 'bg-[#FFAC06]' : 'bg-white-0'}`} onClick={()=>dropNewHandler()}><span className='mr-4'><img src={newIcon} alt="" /></span>New</div>
         {dropNew && (<div className='flex flex-col pl-13 text-sm '>
           <Link to={'/Post-New-Headline'} className='hover:text-[#FFAC06] mt-2'>Post New Headline</Link>
           <Link to={'/Post-New-Article'} className='hover:text-[#FFAC06] mt-2'>Post New Article/Post</Link>
@@ -35,7 +35,7 @@ const Sidebar = () => {
         </div>)} 
 
         
-        <div className='hover:bg-[#FFAC06] flex flex-row mt-4 focus::bg-[#FFAC06] px-5 py-2' onClick={()=>dropManageHandler()}><span className='mr-4'><img src={manageIcon} alt="" /></span>Manage</div>
+        <div className={`hover:bg-[#FFAC06] flex flex-row mt-4  px-5 py-2 ${dropManage ? 'bg-[#FFAC06]' : 'bg-white-0'}`} onClick={()=>dropManageHandler()}><span className='mr-4'><img src={manageIcon} alt="" /></span>Manage</div>
         {dropManage && (<div className='flex flex-col pl-13 text-sm'>
           <Link to={'/Manage-New-Headline'} className='flex flex-row hover:text-[#FFAC06] mt-2'><span className='mr-3'><img src={manageNewHeadlineIcon} alt="" className='hover:text-[#FFAC06]'/></span>Manage New Headline</Link>
           <Link to={'/Manage-New-Article'} className='flex flex-row hover:text-[#FFAC06] mt-2'><span className='mr-3'><img src={manageNewarticleIcon} alt=""/></span>Manage New Handler</Link>
