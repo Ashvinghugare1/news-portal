@@ -9,6 +9,8 @@ import { TbLogout } from "react-icons/tb";
 import {RxHamburgerMenu} from "react-icons/rx";
 import {IoClose} from "react-icons/io5";
 import {RiArrowDropDownLine} from "react-icons/ri";
+import {IoIosSearch} from "react-icons/io";
+import {IoIosNotificationsOutline} from "react-icons/io";
 
 
 
@@ -110,16 +112,16 @@ export default function SideNav() {
                 <li>
                   <a
                     href="/notification"
-                    className="block py-2 px-4 text-lg rounded hover:bg-blue-700"
-                  >
+                    className="flex items-center gap-4 py-2 px-4 text-lg rounded hover:bg-blue-700"
+                  ><IoIosNotificationsOutline />
                     Notification
                   </a>
                 </li>
                 <li>
                   <a
                     href="/search-history"
-                    className="block py-2 px-4 text-lg rounded hover:bg-blue-700"
-                  >
+                    className="flex items-center gap-4 py-2 px-4 text-lg rounded hover:bg-blue-700"
+                  ><IoIosSearch />
                     Search History
                   </a>
                 </li>
