@@ -32,7 +32,7 @@ const ManageHeadline = () => {
              <button className='font-bold'>Edit</button>
             </div>
           </div>
-          <img src={thumbnail} alt="thumbnail" className='w-[95%] py-5 ' />
+          <img src={thumbnail} alt="thumbnail" className='w-[90%] py-5 ' />
         </div>
 
 

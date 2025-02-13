@@ -44,7 +44,7 @@ const ManageArticle = () => {
                 <button className="font-bold">Edit</button>
               </div>
             </div>
-            <img src={thumbnail} alt="thumbnail" className="w-[95%] py-5 " />
+            <img src={thumbnail} alt="thumbnail" className="w-[90%] py-5 " />
           </div>
 
           <div>
@@ -61,11 +61,11 @@ const ManageArticle = () => {
                 <button className="font-bold">Edit</button>
               </div>
             </div>
-            <p className="py-5 w-[95%] text-sm text-[#282828]">
-              The ICC Women's U-19 T20 World Cup final between India and South
-              Africa is scheduled for Sunday, February 2, 2025, at the Bayamos
-              Oval in Kuala Lumpur, starting at 12:00 PM IST. The ICC Women's
-              U-19 T20 World Cup final between India and South Africa is
+            <p className="py-5 w-[90%] text-sm text-[#282828]">
+            The ICC Women's U-19 T20 World Cup final between India and South
+            Africa is scheduled for Sunday, February 2, 2025, at the Bayamos
+            Oval in Kuala Lumpur, starting at 12:00 PM IST. The ICC Women's
+            U-19 T20 World Cup final between India and South Africa is
               scheduled for Sunday, February 2, 2025, at the Bayamos Oval in
               Kuala Lumpur, starting at 12:00 PM IST.The ICC Women's U-19 T20
               World Cup final between India and South Africa is scheduled for
