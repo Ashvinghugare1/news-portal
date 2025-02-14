@@ -6,6 +6,7 @@ import ResetPassword from './Pages/ResetPassword'
 import ResetPasswordSuccess from './Pages/ResetPasswordSuccess'
 import Sidebar from './components/Password/Sidebar/Sidebar'
 import SearchNavbar from './components/Password/Sidebar/SearchNavbar'
+import Setting from './Pages/Setting'
 
 import ManageHeadline from './Pages/ManageHeadline'
 import ManageArticle from './Pages/ManageArticle'
@@ -20,15 +21,16 @@ function App() {
   }
 
   return (
-    <section className='flex' onClick={()=>navHandler()}>
-      <div className='lg:w-[17%] md:w-[17%]'>
+    <section className='flex'>
+      <div className='lg:w-[17%] '>
         <Sidebar view={showNav} viewNav={navHandler}/>
       </div>
-      <div className='lg:w-[83%] md:w-[83%]'>
-        <SearchNavbar viewNav={navHandler}/>
+      <div className='lg:w-[83%] ' onClick={()=>navHandler()}>
+        <SearchNavbar viewNav={navHandler} view={showNav}/>
         <Routes>
           <Route path='/Manage-New-Headline'element={<ManageHeadline/>}/>
           <Route path='/Manage-New-Article' element={<ManageArticle/>}/>
+          <Route path='/setting' element={<Setting/>}/>
         </Routes>
         <Footer/>
       </div>
