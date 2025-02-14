@@ -35,7 +35,6 @@ function App() {
         <Routes>
           <Route path='/Manage-New-Headline'element={<ManageHeadline/>}/>
           <Route path='/Manage-New-Article' element={<ManageArticle/>}/>
-
           <Route path='/setting' element={<Setting/>}/>
          
           <Route path='/Post-New-Article' element={<PostNewArticle/>}/>
