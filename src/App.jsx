@@ -10,6 +10,8 @@ import SearchNavbar from './components/Password/Sidebar/SearchNavbar'
 import ManageHeadline from './Pages/ManageHeadline'
 import ManageArticle from './Pages/ManageArticle'
 import Footer from './components/footer'
+import PostNewArticle from './Pages/PostNewArticle'
+import PostVideo from './Pages/PostVideo'
 
 
 function App() {
@@ -23,12 +25,18 @@ function App() {
         <Routes>
           <Route path='/Manage-New-Headline'element={<ManageHeadline/>}/>
           <Route path='/Manage-New-Article' element={<ManageArticle/>}/>
+         
+          <Route path='/Post-New-Article' element={<PostNewArticle/>}/>
+          <Route path='/Post-Video' element={<PostVideo/>}/>
+
+
+          
         </Routes>
         <Footer/>
       </div>
       {/* <ResetPassword />
       <ResetPasswordSuccess />
-      <AccountVerification/>
+      <AccountVerification/>  
       <EmailVerification/> */}
     </section>
     
