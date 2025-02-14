@@ -6,7 +6,7 @@ const clickHandler = ()=>{
     setClick(!click)
 }
   return (
-    <div className='p-2 w-150'>
+    <div className='p-2 w-150 mb-2'>
         <div className='flex min-h-10 items-center p-5 bg-white justify-between'>
             <p>{question}</p>
             <button onClick={()=>clickHandler()}>+</button>
