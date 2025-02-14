@@ -232,7 +232,7 @@ const Sidebar = ({view}) => {
               Profile
             </Link>
 
-            <Link href="/setting" className="hover:bg-[#FFAC06] mt-4 px-5 py-2 flex flex-row">
+            <Link to="/setting" className="hover:bg-[#FFAC06] mt-4 px-5 py-2 flex flex-row">
               <span className="mr-4"><img src={setting} alt="" /></span>
                 Setting
             </Link>

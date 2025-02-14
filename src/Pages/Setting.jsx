@@ -3,7 +3,7 @@ import Accordian from '../components/Accordian';
 
 const Setting = () => {
   return (
-    <div className="p-6 pt-22 bg-gray-100 w-[100%] ">
+    <div className="p-6 pt-22 bg-gray-100 lg:w-[100%] md:w-231">
       <h1 className="text-2xl font-semibold ">Setting</h1>
       <div class="border-b border-gray-200 dark:border-gray-700">
         <ul class="flex flex justify-center flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400">
