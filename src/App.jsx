@@ -27,7 +27,7 @@ function App() {
 
   return (
     <section className='flex'>
-      <div className='lg:w-[17%] '>
+      <div className='lg:w-[17%]'>
         <Sidebar view={showNav} viewNav={navHandler}/>
       </div>
       <div className='lg:w-[83%] ' onClick={()=>navHandler()}>
