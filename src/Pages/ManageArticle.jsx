@@ -16,14 +16,14 @@ const ManageArticle = () => {
                 placeholder="Title"
                 className="border border-gray-200 rounded px-3 py-1 w-[90%] shadow"
               />
-              <div className="flex flex-row items-center">
+              <div className="flex flex-row items-center px-3">
                 <span className="w-5">
                   <img src={editIcon} alt="" />
                 </span>
                 <button className="font-bold">Edit</button>
               </div>
             </div>
-            <p className="w-[60%] text-[#282828] text-sm my-2">
+            <p className="md:w-[60%] text-[#282828] text-sm my-2">
               IND-W vs SA-W U-19 T20 World Cup Final: India Women vs South
               Africa Women U-19 Match Date, Time, Live Cricket Score Streaming,
               Telecast Channels, other details
@@ -37,14 +37,14 @@ const ManageArticle = () => {
                 placeholder="Cover photo"
                 className="border border-gray-200 rounded px-3 py-1 w-[90%] shadow"
               />
-              <div className="flex flex-row  items-center">
+              <div className="flex flex-row  items-center px-3">
                 <span className="w-5">
                   <img src={editIcon} alt="" />
                 </span>
                 <button className="font-bold">Edit</button>
               </div>
             </div>
-            <img src={thumbnail} alt="thumbnail" className="w-[95%] py-5 " />
+            <img src={thumbnail} alt="thumbnail" className="w-[90%] py-5 " />
           </div>
 
           <div>
@@ -54,18 +54,18 @@ const ManageArticle = () => {
                 placeholder="Description"
                 className="border border-gray-200 rounded px-3 py-1 w-[90%] shadow"
               />
-              <div className="flex flex-row items-center">
+              <div className="flex flex-row items-center px-3">
                 <span className="w-5">
                   <img src={editIcon} alt="" />
                 </span>
                 <button className="font-bold">Edit</button>
               </div>
             </div>
-            <p className="py-5 w-[95%] text-sm text-[#282828]">
-              The ICC Women's U-19 T20 World Cup final between India and South
-              Africa is scheduled for Sunday, February 2, 2025, at the Bayamos
-              Oval in Kuala Lumpur, starting at 12:00 PM IST. The ICC Women's
-              U-19 T20 World Cup final between India and South Africa is
+            <p className="py-5 w-[90%] text-sm text-[#282828]">
+            The ICC Women's U-19 T20 World Cup final between India and South
+            Africa is scheduled for Sunday, February 2, 2025, at the Bayamos
+            Oval in Kuala Lumpur, starting at 12:00 PM IST. The ICC Women's
+            U-19 T20 World Cup final between India and South Africa is
               scheduled for Sunday, February 2, 2025, at the Bayamos Oval in
               Kuala Lumpur, starting at 12:00 PM IST.The ICC Women's U-19 T20
               World Cup final between India and South Africa is scheduled for

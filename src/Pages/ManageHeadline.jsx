@@ -12,12 +12,12 @@ const ManageHeadline = () => {
         <div>
           <div className='flex flex-row justify-between'>
             <input type="text" placeholder='Title'className='border border-gray-200 rounded px-3 py-1 w-[90%] shadow'/>
-            <div className='flex flex-row items-center'>
+            <div className='flex flex-row items-center md:px-3'>
              <span className='w-5'><img src={editIcon} alt="" /></span>
              <button className='font-bold'>Edit</button>
             </div>
           </div>
-          <p className='w-[39%] text-[#282828] text-sm my-2'>
+          <p className='lg:w-[39%] text-[#282828] text-sm my-2 md:w-[60%] w-[90%]'>
             Budget 2025 Live: Fm Nirmala Sitaraman Announces Huge Tax Relief | New
             Tax Slab Explained
           </p>
@@ -27,19 +27,19 @@ const ManageHeadline = () => {
         <div className='py-8'>
           <div className='flex flex-row justify-between'>
             <input type="text" placeholder='Video' className='border border-gray-200 rounded px-3 py-1 w-[90%] shadow'/>
-            <div className='flex flex-row  items-center'>
+            <div className='flex flex-row  items-center md:px-3'>
              <span className='w-5'><img src={editIcon} alt="" /></span>
              <button className='font-bold'>Edit</button>
             </div>
           </div>
-          <img src={thumbnail} alt="thumbnail" className='w-[95%] py-5 ' />
+          <img src={thumbnail} alt="thumbnail" className='w-[90%] py-5 ' />
         </div>
 
 
         <div>
           <div className='flex flex-row justify-between'>
             <input type="text" placeholder='Description' className='border border-gray-200 rounded px-3 py-1 w-[90%] shadow'/>
-            <div className='flex flex-row items-center'>
+            <div className='flex flex-row items-center md:px-3'>
              <span className='w-5'><img src={editIcon} alt="" /></span>
              <button className='font-bold'>Edit</button>
             </div>
