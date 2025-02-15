@@ -33,9 +33,7 @@ export default function SettingsContent() {
           </div>
         ))}
 
-        <div className="text-center mt-4">
-          <p className="text-gray-500 text-sm">Copyright © 2025 Newspaper. All rights reserved.</p>
-        </div>
+        
       </div>
     </div>
   );
